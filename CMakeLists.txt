@@ -3,4 +3,5 @@ project(Biblioteca)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Biblioteca main.cpp)
+add_executable(Biblioteca main.cpp
+        Biblioteca.h)
